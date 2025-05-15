@@ -10,7 +10,6 @@ while (!isNumeric || num < 1 || num > 2) {
 isNumeric = int.TryParse(Console.ReadKey(true).KeyChar.ToString(), out num);
 }
 
-// "C:\Users\nijme\Desktop"
 
 switch (num)
 {
